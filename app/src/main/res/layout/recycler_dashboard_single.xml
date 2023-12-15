@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/liContent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="6"
+    >
+   <ImageView
+       android:id="@+id/bookimg"
+       android:layout_weight="1.5"
+       android:layout_width="0dp"
+       android:layout_height="110dp"
+       android:src="@drawable/books"
+       android:scaleType="centerCrop"
+       />
+    <RelativeLayout
+        android:layout_weight="3.3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/books"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BOOK NAME"
+            android:padding="8dp"
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/booksauthor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/books"
+            android:text="AUTHOR"
+            android:padding="8dp"
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/booksauthor"
+            android:text="PRICE"
+            android:padding="8dp"
+            android:textSize="15sp"/>
+
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/rate"
+        android:layout_weight="1.2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/stars"
+        android:text="4.5"
+
+        />
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+<item android:id="@+id/dashboard" android:title="dashboard" android:icon="@drawable/ic_dashboard"/>
+    <item android:id="@+id/favourite" android:title="Favourite" android:icon="@drawable/ic_favourite"/>
+    <item android:id="@+id/people" android:title="People" android:icon="@drawable/ic_people"/>
+    <item android:id="@+id/aboutus" android:title="ABOUT US" android:icon="@drawable/ic_aboutus"/>
+    </group>
+</menu>
